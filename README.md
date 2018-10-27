@@ -10,6 +10,12 @@ AWSLambdaFullAccess
 AmazonAPIGateWay Adminstrate  
 AmazonCognitoPwerUser  
 ```
+AWS 루트 계정 MFA(Multi-Factor Authentication) 설정 권장  
+aws.amazon.com/iam/details/mfa  
+
+사용자는 그룹에 속할수있으며, 역할은 사용자,애플리케이션,서비스에 부여받을수있다.
+
+계정 (배포 그룹, 테스트 그룹, DBA 그룹)
 
 - AWS CLI  
 ```

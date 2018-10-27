@@ -10,6 +10,23 @@ AWSLambdaFullAccess
 AmazonAPIGateWay Adminstrate  
 AmazonCognitoPwerUser  
 ```
+
+정책변수를 통해서 접근아이피, 현재시간에 따른 접근, https 접근여부, 특정웹페이지 접근여부
+를 설정할수있다.
+```
+Condition -> IpAddress
+Condition -> NotIpAddress
+aws:SourceIP
+
+Condition -> DateGreaterThan -> DateLessThan
+aws:CurrentTime
+
+Condition -> Bool
+aws:SecureTransport
+
+aws:Referer
+```
+
 AWS 루트 계정 MFA(Multi-Factor Authentication) 설정 권장  
 aws.amazon.com/iam/details/mfa  
 

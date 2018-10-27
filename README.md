@@ -1,3 +1,18 @@
+My Summary
+-------------------------------
+- IAM Setting  
+AWSLambdaFullAccess  
+AmazonAPIGateWay Adminstrate  
+AmazonCognitoPwerUser  
+
+-AWS CLI  
+aws Lambda list-functions  
+aws lambda invoke help  
+
+aws lambda invoke --function-name greetingsOnDemand --payload "{""name"":""JO""}" output.txt
+aws lambda invoke --function-name greetingsOnDemand --payload "{}" output.txt
+
+
 Welcome to AWS Lambda in Action
 -------------------------------
 

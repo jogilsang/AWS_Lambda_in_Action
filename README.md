@@ -13,7 +13,16 @@ AmazonCognitoPwerUser
 AWS 루트 계정 MFA(Multi-Factor Authentication) 설정 권장  
 aws.amazon.com/iam/details/mfa  
 
+1. 정책(Policy)
+2. 권한(Authorization)
+3. 인증(Authentication)
+3-1. access key
+3-2. secret access key
+(AWS CLI와 SDK가 자동으로 작업함)
+
 사용자는 그룹에 속할수있으며, 역할은 사용자,애플리케이션,서비스에 부여받을수있다.
+사용자는 지속적인 자격증명을 가지며, 주기적으로 변경을 권장
+역활은 임시자격증명(AWS STS(Security Token Service)이 부여된다.
 
 계정 (배포 그룹, 테스트 그룹, DBA 그룹)
 

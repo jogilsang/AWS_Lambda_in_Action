@@ -1,5 +1,9 @@
 My Summary
 -------------------------------
+
+Amazon API Gateway  
+https://docs.aws.amazon.com/ko_kr/apigateway/latest/developerguide/integrating-api-with-aws-services-lambda.html
+
 - IAM Setting  
 ```
 AWSLambdaFullAccess  
@@ -15,6 +19,10 @@ aws lambda invoke help
 aws lambda invoke --function-name greetingsOnDemand --payload "{""name"":""JO""}" output.txt
 aws lambda invoke --function-name greetingsOnDemand --payload "{}" output.txt
 ```
+
+- Tip
+Restful api 설계방법
+https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
 
 Welcome to AWS Lambda in Action
 -------------------------------
